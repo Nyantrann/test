@@ -1,0 +1,4 @@
+git init : khởi tạo repo ở local
+git add <file_name> : thêm file vào
+git add . : thêm file vào  
+git commit -m “message” : thêm commit file
