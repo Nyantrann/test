@@ -1,1 +1,21 @@
-test 123
+※ Câu lệnh cài  email và name
+- git config --global user.name "Nhan"
+- git config --gobal user.email "trantamnhan98@gmail.com"
+※ Câu lệnh tạo 1 thư mục
+- Câu lệnh tạo folder ( click chuột phải chọn git bash here)
+' npm init playwright@latest '
+- ở visua code, thanh menu chọn terminal>new terminal 
+ ※ Câu lệnh đưa code lên github 
+Mở tab teminar ở visua code
+-  Khởi tạo repo local git init
+-  Tạo repo GitHub và liên kết tới repo local git remote add origin < link SSH của github>
+Lưu ý 2 câu trên chỉ làm 1 lần duy nhất
+- Thêm file vào staging git add .
+- Commit file  git commit -m "<message>"
+- Đưa code lên github: git push origin main
+SAU ĐÓ NẾU NHƯ CÓ THÊM FILE MUỐN COMMIT LÊN THÌ THỰC HIỆN LẠI 
+- Thêm file vào staging git add .
+- Commit file  git commit -m "<message>"
+- Đưa code lên github: git push origin main
+💥 Lưu ý nếu file đó nằm trong 1 thư mục thì phải khai báo kèm thư mục cha đó 
+vd: test/demo.txt
